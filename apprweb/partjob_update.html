@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>中国电信-MSS人力辅助系统</title>
+<link href="resources/common/css/style.css" rel="stylesheet" type="text/css" />
+
+<script type="text/javascript" src="resources/common/js/jq_min.js"></script>
+<script type="text/javascript" src="resources/common/js/jq_pngAlpha.js"></script>
+<script type="text/javascript" src="resources/common/js/common.js"></script>
+
+<link rel="stylesheet" type="text/css" href="resources/themes/icon.css">
+<link rel="stylesheet" type="text/css" href="resources/themes/default/easyui.css">
+
+<script type="text/javascript" src="resources/jquery.easyui.min.js"></script>
+<script type="text/javascript" src="resources/locale/easyui-lang-zh_CN.js"></script>
+<script type="text/javascript" src="resources/page/HashMap.js"></script>
+<script type="text/javascript" src="resources/page/part_job_update_new.js"></script>
+
+</head>
+<body>
+<div class="WrapHead_height"></div>
+<div class="WrapHead">
+	<div class="Head">
+		<span class="Logo_corp"></span> <span class="Logo_sys" style="background-image:url(style/images/logo_sys_hr.png);"></span>
+		<div class="Head_R pa">
+			欢迎您，<strong>MaxSoft</strong> | <a href="#">退出</a><br>
+		</div>
+	</div>
+<div class="Head_oper">
+		<div class="FR">
+			<a href = "javascript:open_approve_bill_dialog();" class="Bu1" id = "@bill-approve_btn" ><b><i class="icon i_Process_2"></i>审批</b></a>
+			<a href ="javascript:open_approve_note_dialog();" class="Bu1" id = "@bill-approve_note_btn"><b><i class="icon i_Process_2"></i>审批意见</b></a>
+		    <a href ="javascript:WebUpdate.update({id:'init_window_area',title:'兼职信息修改',billstate:'提交'});" class="Bu1" id = "@bill-approve_note_btn">
+				<b>
+					<i class="icon i_Editor_2"></i>修改
+				</b>
+			</a>
+		</div>
+		<div class="Clear"></div>
+</div>
+<div class="WrapMiddle">
+
+
+</div>
+
+<div class="Footer">
+	<span class="left"></span>
+	<span class="right">版权所有 &copy;2016 中国电信集团公司</span>
+</div>
+<!-- Added by zhaoyl 2016-07-08 start -->
+<div id='init_window_area'></div>
+<!-- Added by zhaoyl 2016-07-08  ent  -->
+</body>
+</html>
+
+
